@@ -1,0 +1,700 @@
+semver: 2.9.3
+header: 
+   name: "G380-0"
+   modelId: 
+      0:
+         val: 51
+      1:
+         val: 51
+timers: 
+   0:
+      start: 210
+      swtch: "SE2"
+      value: 0
+      mode: THR_START
+      countdownBeep: 2
+      minuteBeep: 0
+      persistent: 0
+      countdownStart: 0
+      showElapsed: 0
+      extraHaptic: 0
+      name: ""
+telemetryProtocol: 0
+thrTrim: 0
+noGlobalFunctions: 0
+displayTrims: 0
+ignoreSensorIds: 0
+trimInc: 0
+disableThrottleWarning: 0
+displayChecklist: 0
+extendedLimits: 0
+extendedTrims: 0
+throttleReversed: 0
+enableCustomThrottleWarning: 0
+disableTelemetryWarning: 0
+showInstanceIds: 0
+customThrottleWarningPosition: 0
+beepANACenter: 0
+mixData: 
+ -
+   weight: 100
+   destCh: 0
+   srcRaw: I0
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 1
+   srcRaw: I1
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "PIT"
+ -
+   weight: 100
+   destCh: 3
+   srcRaw: I3
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 4
+   srcRaw: SE
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "ARM"
+ -
+   weight: 100
+   destCh: 5
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "NONE"
+   flightModes: 101111111
+   curve: 
+      type: 3
+      value: 1
+   delayUp: 0
+   delayDown: 0
+   speedUp: 200
+   speedDown: 0
+   name: "THR"
+ -
+   weight: 100
+   destCh: 5
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "NONE"
+   flightModes: 110111111
+   curve: 
+      type: 3
+      value: 2
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 5
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "NONE"
+   flightModes: 111011111
+   curve: 
+      type: 3
+      value: 3
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: -22
+   destCh: 6
+   srcRaw: MAX
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "SC0"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "GYR"
+ -
+   weight: -24
+   destCh: 6
+   srcRaw: MAX
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "SC1"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: -27
+   destCh: 6
+   srcRaw: MAX
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "SC2"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 7
+   srcRaw: SC
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 8
+   srcRaw: SF
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 4
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "RES"
+limitData: 
+   0:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   1:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   2:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   3:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   4:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   5:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   6:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   7:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   8:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   9:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   10:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   11:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   12:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   13:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   14:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   15:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   16:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   17:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   18:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   19:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   20:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   21:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   22:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   23:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   24:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   25:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   26:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   27:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   28:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   29:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   30:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+   31:
+      min: 183
+      max: -183
+      ppmCenter: 20
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+expoData: 
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: Ail
+   chn: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: Ele
+   chn: 1
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: Thr
+   chn: 2
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: Rud
+   chn: 3
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+curves: 
+   0:
+      type: 1
+      smooth: 0
+      points: -2
+      name: "ID0"
+   1:
+      type: 0
+      smooth: 0
+      points: -3
+      name: "ID1"
+   2:
+      type: 0
+      smooth: 0
+      points: -3
+      name: "ID2"
+   3:
+      type: 0
+      smooth: 0
+      points: -2
+      name: "RES"
+points: 
+   0:
+      val: -100
+   1:
+      val: 60
+   2:
+      val: 60
+   3:
+      val: -70
+   4:
+      val: 80
+   5:
+      val: 80
+   6:
+      val: 100
+   7:
+      val: 100
+   10:
+      val: -100
+customFn: 
+   0:
+      swtch: "SE0"
+      func: OVERRIDE_CHANNEL
+      def: "5,-100,1"
+   1:
+      swtch: "SE0"
+      func: RESET
+      def: "Tmr1,1"
+flightModeData: 
+   1:
+      name: ""
+      swtch: "SC0"
+      fadeIn: 0
+      fadeOut: 0
+   2:
+      name: ""
+      swtch: "SC1"
+      fadeIn: 15
+      fadeOut: 0
+   3:
+      name: ""
+      swtch: "SC2"
+      fadeIn: 15
+      fadeOut: 0
+thrTraceSrc: Thr
+switchWarningState: 
+rssiSource: none
+rfAlarms: 
+   warning: 45
+   critical: 42
+thrTrimSw: 0
+potsWarnMode: WARN_OFF
+jitterFilter: OFF
+moduleData: 
+   1:
+      type: TYPE_CROSSFIRE
+      subType: 0
+      channelsStart: 0
+      channelsCount: 16
+      failsafeMode: NOT_SET
+      mod: 
+         crsf: 
+            telemetryBaudrate: 2
+inputNames: 
+   0:
+      val: "Ail"
+   1:
+      val: "Ele"
+   2:
+      val: "Thr"
+   3:
+      val: "Rud"
+potsWarnEnabled: 0
+view: 0
+modelRegistrationID: "SECRET"
+usbJoystickExtMode: 0
+usbJoystickIfMode: JOYSTICK
+usbJoystickCircularCut: 0
+radioGFDisabled: GLOBAL
+radioTrainerDisabled: GLOBAL
+modelHeliDisabled: GLOBAL
+modelFMDisabled: GLOBAL
+modelCurvesDisabled: GLOBAL
+modelGVDisabled: GLOBAL
+modelLSDisabled: GLOBAL
+modelSFDisabled: GLOBAL
+modelCustomScriptsDisabled: GLOBAL
+modelTelemetryDisabled: GLOBAL
