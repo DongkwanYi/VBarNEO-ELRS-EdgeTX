@@ -13,21 +13,13 @@ I think FLRC mode is good for the helicopters.
 Of course, it may be difficult to actually feel the difference compared to other modern radios, like futaba, spektrum.
 
 Ch1 : Aileron
-
 Ch2 : Elevator
-
 Ch3 : Collective
-
 Ch4 : Rudder
-
 Ch5 : Arm(ELRS feature) + motor Run(VBar feature) // throttle cut : 2pos SE switch
-
 Ch6 : Throttle : combined Flight mode 1/2/3(3pos SC switch)
-
 Ch7 : GYR : tail gain, 3pos SC switch
-
 Ch8 : Bank : 3pos SC switch
-
 Ch9 : Rescue : 2pos momentary SF switch
 
 Enjoy Flying!
