@@ -1,3 +1,6 @@
+*NOTICE*
+This my setup, my setup may not be the best one.
+
 Hi,
 
 A model file for VBar NEO FBL system written on EdgeTX2.9.4, Radiomaster Boxer.
