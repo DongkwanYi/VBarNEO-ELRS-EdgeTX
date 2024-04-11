@@ -1,5 +1,5 @@
 *NOTICE*
-This my setup, my setup may not be the best one.
+My setup may not be the best one.
 
 Hi,
 
